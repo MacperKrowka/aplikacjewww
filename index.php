@@ -13,7 +13,7 @@ require_once 'server.php';
 
 
 
-// Retrieve car data from the database
+
 $sql = "SELECT * FROM cars";
 $result = $conn->query($sql);
 
